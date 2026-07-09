@@ -154,8 +154,8 @@ M.cardarea_map = stitch({
   [cardarea.JOKERS] = function() return G.jokers end,
   [cardarea.CONSUMEABLES] = function() return G.consumeables end,
 }, layout)
-M.modifier_right = "rshift"
-M.modifier_left = "lshift"
+M.modifier_right = "lctrl"
+M.modifier_left = "lctrl"
 
 ---pick one column per field name from per-layout key tables (same shape as `stitch` rows)
 ---@param keymap table<string, table<string, string>>
