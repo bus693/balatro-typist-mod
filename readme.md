@@ -45,6 +45,16 @@ game versions:
 
 ## feature overview
 
+### Bus693's Changes
+
+- Remapped the left modifier to `lctrl`
+- Disabled exiting shop via `dismiss` (use `Enter`)
+- Moved dismiss to backtick `` ` ``
+
+(Below is the original README functionality)
+
+### Original
+
 - toggling hand cards with `asdfgh...` keys
 - a complete implementation of every action in every game state, with
   - `space` being generally the "proceed" button:
