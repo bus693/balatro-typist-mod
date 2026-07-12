@@ -133,7 +133,7 @@ M[G.STATES.SHOP] = function(key, held_keys)
     G.FUNCS.reroll_shop()
 
   -- switch to blind select
-  elseif key == layout.dismiss or key == layout.enter then
+  elseif key == layout.enter then
     G.FUNCS.toggle_shop()
   else
     shop.cards = tu.list_concat(G.shop_jokers.cards, G.shop_vouchers.cards, G.shop_booster.cards)
