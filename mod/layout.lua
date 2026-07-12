@@ -41,7 +41,7 @@ local preview_deck = {
 M.preview_deck = preview_deck[layout]
 
 M.proceed = "space"
-M.dismiss = "tab"
+M.dismiss = "`"
 M.reroll = "r"
 M.skip = "s"
 M.menu_nav = {
